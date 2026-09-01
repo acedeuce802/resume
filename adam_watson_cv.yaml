@@ -1,0 +1,148 @@
+cv:
+  name: Adam Watson
+  email: adam.1.watson@gm.com
+  phone: "+1-947-224-1278"
+  social_networks:
+    - network: GitHub
+      username: acedeuce802
+
+  sections:
+    summary:
+      - >-
+        Motivated, hands-on Engineer, with a strong background in testing, validation, and
+        design release. Experience with full vehicle development, and system level
+        involvement in electric powertrains, mechanical drivelines, thermal systems, brakes,
+        and production and prototype chassis. Strong interpersonal and communication skills,
+        with a great desire to achieve success and meet deadlines.
+
+    experience:
+      - company: General Motors
+        position: Design Release Engineer
+        start_date: 2023-10
+        end_date: present
+        highlights:
+          - Design Release Engineer for BT1 and Y2 suspension components including trim
+            height and alignment, control arms, knuckles, toe-links, and spring/damper
+            accessories
+          - Managed release for all assigned components across design and validation
+            milestones
+          - Maintained validation responsibilities alongside design release duties
+          - Root caused control arm corrosion issue and proposed process changes with
+            demonstrated success
+          - Provided immediate plant support for arising issues and ongoing process
+            improvements
+
+      - company: General Motors
+        position: Subsystem Validation Engineer
+        start_date: 2021-10
+        end_date: 2023-10
+        highlights:
+          - Managed validation for BT1, BV1, and T1 programs across all suspension
+            components
+          - Created validation documents to support Statement of Requirements (SOR)
+          - Authored program-specific VCRIs for supplier validation requirements
+          - Managed supplier validation activities and drove PRTS issues to closure
+          - Managed Engineering Change Requests (ECRs) for validation scope and
+            requirements
+
+      - company: Pratt Miller Engineering
+        position: Test & Development Engineer
+        start_date: 2015-04
+        end_date: 2021-10
+        highlights:
+          - Analyzed component or vehicle needs and requirements and developed test plans
+          - Integrated DAQ and instrumentation to satisfy test plan
+          - Planned test trips, including transportation, travel and accommodations,
+            support equipment, and testing logistics
+          - Operated data acquisition system during testing
+          - Analyzed data and provided summaries for product development
+          - Worked directly with customer to define project goals, inform progress, and
+            provide project summaries
+          - "Engineering lead: 3+ year long robotic defense project, including full
+            vehicle and wireless network development and validation"
+          - "Engineering lead: E-LSD testing and benchmarking project with focus on
+            vehicle dynamics"
+          - "Engineering lead: Hydrogen fuel-cell thermal project, integrating
+            instrumentation and delivering full vehicle DAQ system"
+
+      - company: Continental Automotive Systems
+        position: "Co-op Engineer, Brake Component Testing"
+        start_date: 2013-10
+        end_date: 2015-01
+        highlights:
+          - Performed durability tests on brake components
+          - Evaluated rattle issues and solutions for customer
+          - Executed iterations of brake calipers on drag torque dynamometer to prioritize
+            design considerations
+          - "Attended training by design department including: Design for Casting, FEA
+            Stress and Modal Analysis, Tolerance Stack-up, Pad Material, DFMEA, and
+            General System Function"
+
+    education:
+      - institution: Kettering University
+        area: Mechanical Engineering
+        degree: BS
+        start_date: 2011-07
+        end_date: 2016-06
+        grade: "Engineering GPA: 3.38"
+        highlights:
+          - Studied abroad at Hochschule Esslingen University of Applied Sciences, Fall
+            2013
+
+    skills:
+      - label: Software
+        details: Microsoft Office Suite, Dewesoft X3, Motec i2 Pro, CANape, CANalyzer,
+          RMC-Tools, Q Programmer, Teamcenter Visualiation, General CAD modeling
+      - label: Programming Languages
+        details: Python, C / C++
+      - label: Manufacturing
+        details: TIG/MIG Welding, Horizontal Mill, Metal Lathe, Additive Manufacturing,
+          Motorsports Wiring
+
+    projects:
+      - name: Kettering University Formula SAE
+        start_date: 2011-07
+        end_date: 2016-05
+        highlights:
+          - Chief Engineer, 07/2013 to 06/2015
+          - Lead Suspension Design, 01/2012 to 07/2013
+          - Managed team of 20+ students in the project to design, build, test, and
+            compete with a formula style racecar
+          - Maintained communication and collaboration with each system
+          - Autocross and Endurance driver, 2013-2016
+
+      - name: "DIY Cycling Indoor Trainer — V1"
+        summary: Added resistance to cycling rollers with a servo motor to adjust
+          magnet-to-roller distance
+        highlights:
+          - Designed system using linear bearings, aluminum extrusion, servo motor, and
+            3D printed brackets
+          - Wrote code to connect to cycling software via Bluetooth and accept target
+            power inputs
+          - Calibrated system to apply necessary resistance to achieve target power
+          - Written in C++
+          - "[github.com/acedeuce802/DIY-Smart-Roller](https://github.com/acedeuce802/DIY-Smart-Roller)"
+
+      - name: "DIY Cycling Indoor Trainer — V2"
+        summary: Reverse engineered PCB to replace off-the-shelf cycling rollers with
+          updated hardware/code
+        highlights:
+          - Started with V1 code and added simulation mode, to make resistance mimic
+            hills outside
+          - Added web server to connect via home wifi, to update calibrations and push
+            OTA updates
+          - Improved response from factory 0.5 Hz to 20 Hz
+          - Much more accurate power calibration compared to factory software
+          - Designed and assembled custom PCB
+          - "[github.com/acedeuce802/InsideRideRollers_Qubo_to_FTMS](https://github.com/acedeuce802/InsideRideRollers_Qubo_to_FTMS)"
+
+      - name: Personal Vehicle Track Preparation
+        highlights:
+          - Tuned damper valving, spring rates, and sway bars
+          - Designed and manufactured a turbocharger system
+          - Installed standalone ECU, and calibrated the engine for power, transient
+            drivability, and fuel efficiency
+          - Designed PCB for custom control features
+
+design:
+  theme: engineeringresumes
